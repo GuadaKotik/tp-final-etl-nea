@@ -1,0 +1,62 @@
+2026-09-21 17:22:41,459 INFO    ==============================================================
+2026-09-21 17:22:41,463 INFO    PIPELINE EXPORTACIONES NEA — inicio
+2026-09-21 17:22:41,467 INFO    ==============================================================
+2026-09-21 17:22:41,470 INFO    EXTRACT: 4 provincias
+2026-09-21 17:22:47,726 INFO      Chaco / destino: 12 series, 32 años
+2026-09-21 17:22:50,193 INFO      Chaco / rubro: 4 series, 32 años
+2026-09-21 17:22:56,282 INFO      Corrientes / destino: 12 series, 32 años
+2026-09-21 17:22:58,680 INFO      Corrientes / rubro: 4 series, 32 años
+2026-09-21 17:23:04,623 INFO      Formosa / destino: 12 series, 32 años
+2026-09-21 17:23:07,191 INFO      Formosa / rubro: 4 series, 32 años
+2026-09-21 17:23:13,426 INFO      Misiones / destino: 12 series, 32 años
+2026-09-21 17:23:16,057 INFO      Misiones / rubro: 4 series, 32 años
+2026-09-21 17:23:16,093 INFO    EXTRACT OK: 8 de 8 descargas
+2026-09-21 17:23:16,097 INFO    TRANSFORM: iniciando
+2026-09-21 17:23:16,102 INFO      ancho_a_largo: 1408 filas
+2026-09-21 17:23:16,109 INFO      índice de rubros: 128 claves (provincia, año)
+2026-09-21 17:23:16,123 INFO    TRANSFORM OK: 1408 filas x 13 columnas
+2026-09-21 17:23:16,133 INFO    LOAD: validando
+2026-09-21 17:23:16,144 INFO      check OK    | cantidad: 1408 filas (mínimo esperado 1000)
+2026-09-21 17:23:16,155 INFO      check OK    | columnas: las 13 del contrato en todas las filas
+2026-09-21 17:23:16,160 INFO      check OK    | unicidad: 0 claves (provincia, anio, destino) duplicadas
+2026-09-21 17:23:16,172 INFO      check OK    | rangos: 0 filas con valor_musd fuera de rango
+2026-09-21 17:23:16,177 INFO      check OK    | cobertura: 91 filas sin variación interanual (esperable en el primer año), 0 sin rubro
+2026-09-21 17:23:16,189 INFO    LOAD: guardando
+2026-09-21 17:23:16,205 INFO      CSV: data/processed\exportaciones_nea.csv (1408 filas)
+2026-09-21 17:23:16,212 INFO      JSON: data/processed\resumen.json
+2026-09-21 17:23:16,220 INFO      LOG: logs\pipeline.log
+2026-09-21 17:23:16,227 INFO    LOAD OK
+2026-09-21 17:23:16,239 INFO    ==============================================================
+2026-09-21 17:23:16,244 INFO    PIPELINE EXPORTACIONES NEA — fin OK
+2026-09-21 17:23:16,256 INFO    ==============================================================
+2026-09-21 17:26:52,456 INFO    ==============================================================
+2026-09-21 17:26:52,510 INFO    PIPELINE EXPORTACIONES NEA — inicio
+2026-09-21 17:26:52,522 INFO    ==============================================================
+2026-09-21 17:26:52,539 INFO    EXTRACT: 4 provincias
+2026-09-21 17:26:53,062 INFO      Chaco / destino: 12 series, 32 años
+2026-09-21 17:26:53,589 INFO      Chaco / rubro: 4 series, 32 años
+2026-09-21 17:26:54,332 INFO      Corrientes / destino: 12 series, 32 años
+2026-09-21 17:26:55,094 INFO      Corrientes / rubro: 4 series, 32 años
+2026-09-21 17:26:55,873 INFO      Formosa / destino: 12 series, 32 años
+2026-09-21 17:26:56,746 INFO      Formosa / rubro: 4 series, 32 años
+2026-09-21 17:26:57,559 INFO      Misiones / destino: 12 series, 32 años
+2026-09-21 17:26:58,061 INFO      Misiones / rubro: 4 series, 32 años
+2026-09-21 17:26:58,087 INFO    EXTRACT OK: 8 de 8 descargas
+2026-09-21 17:26:58,100 INFO    TRANSFORM: iniciando
+2026-09-21 17:26:58,122 INFO      ancho_a_largo: 1408 filas
+2026-09-21 17:26:58,143 INFO      índice de rubros: 128 claves (provincia, año)
+2026-09-21 17:26:58,163 INFO    TRANSFORM OK: 1408 filas x 13 columnas
+2026-09-21 17:26:58,175 INFO    LOAD: validando
+2026-09-21 17:26:58,191 INFO      check OK    | cantidad: 1408 filas (mínimo esperado 1000)
+2026-09-21 17:26:58,203 INFO      check OK    | columnas: las 13 del contrato en todas las filas
+2026-09-21 17:26:58,219 INFO      check OK    | unicidad: 0 claves (provincia, anio, destino) duplicadas
+2026-09-21 17:26:58,235 INFO      check OK    | rangos: 0 filas con valor_musd fuera de rango
+2026-09-21 17:26:58,252 INFO      check OK    | cobertura: 91 filas sin variación interanual (esperable en el primer año), 0 sin rubro
+2026-09-21 17:26:58,269 INFO    LOAD: guardando
+2026-09-21 17:26:58,306 INFO      CSV: data/processed\exportaciones_nea.csv (1408 filas)
+2026-09-21 17:26:58,321 INFO      JSON: data/processed\resumen.json
+2026-09-21 17:26:58,335 INFO      LOG: logs\pipeline.log
+2026-09-21 17:26:58,352 INFO    LOAD OK
+2026-09-21 17:26:58,368 INFO    ==============================================================
+2026-09-21 17:26:58,384 INFO    PIPELINE EXPORTACIONES NEA — fin OK
+2026-09-21 17:26:58,402 INFO    ==============================================================

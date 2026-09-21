@@ -1,0 +1,45 @@
+{
+  "dataset": "Exportaciones del NEA por país de destino",
+  "fuente": "INDEC, vía la API de Series de Tiempo de datos.gob.ar (datasets 357.1 y 350.1)",
+  "unidad": "millones de dólares FOB",
+  "generado": "2026-09-21 17:26",
+  "filas": 1408,
+  "columnas": 13,
+  "periodo": {
+    "desde": 1993,
+    "hasta": 2024
+  },
+  "provincias": [
+    "Chaco",
+    "Corrientes",
+    "Formosa",
+    "Misiones"
+  ],
+  "valor_musd": {
+    "minimo": 0.0,
+    "maximo": 399.14,
+    "promedio": 20.17
+  },
+  "quality_checks": [
+    {
+      "check": "cantidad: 1408 filas (mínimo esperado 1000)",
+      "estado": "OK"
+    },
+    {
+      "check": "columnas: las 13 del contrato en todas las filas",
+      "estado": "OK"
+    },
+    {
+      "check": "unicidad: 0 claves (provincia, anio, destino) duplicadas",
+      "estado": "OK"
+    },
+    {
+      "check": "rangos: 0 filas con valor_musd fuera de rango",
+      "estado": "OK"
+    },
+    {
+      "check": "cobertura: 91 filas sin variación interanual (esperable en el primer año), 0 sin rubro",
+      "estado": "OK"
+    }
+  ]
+}

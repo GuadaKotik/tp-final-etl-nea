@@ -1,0 +1,9 @@
+# Este proyecto usa SOLO la biblioteca estándar de Python (3.8+).
+# No hace falta instalar nada: csv, json, logging, os, datetime y urllib
+# ya vienen con Python.
+#
+# Si más adelante querés sumar análisis o gráficos (bonus del TP),
+# descomentá lo que necesites y corré:  pip install -r requirements.txt
+#
+# pandas
+# matplotlib
